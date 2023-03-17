@@ -1,0 +1,180 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}   
+*{
+    margin: 0px;    
+    padding: 0px;
+    font-family: "Avenir Next";
+    font-weight: normal;
+    max-width: 100% !important;
+    box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.header{
+    background-color: #2f5167;
+    color:#fff;
+    height:90px;
+    width: 100%;
+  }
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+  }
+  span{
+    color: yellow;
+    width: 25px;
+  }
+  .menu-icon {
+    float: right;
+    font-size: 25px;
+    padding: 21px 30px;
+    display: none;
+    color: #2f5167;
+  }
+  .main{
+    background-color: white;
+    padding:20px 10px 20px 10px;
+  }
+  .clear{
+    clear: left;
+  }
+  .copy-writer h1{
+    text-align: center;
+    font-size: 100px;
+  }
+  .copy-writer h2{
+    text-align: center;
+    font-size: 25px;
+  }
+  .copy-writer img{
+    text-align: center;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+  }
+  .about{
+    background-color: rgb(202, 199, 199);
+    padding:20px 10px 20px 10px;
+    display: flex;
+    text-align: center;
+  }
+  .tentang h1{
+    text-align: center;
+    color: rgb(45, 42, 42)
+  }
+  .tentang p{
+    text-align: center;
+    color: rgb(45, 42, 42)
+  }
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  .heading h2 {
+    font-weight: normal;
+  }
+  #isi{
+    background-color: white;
+    color: rgb(78, 73, 73);
+    text-align: center;
+    padding-bottom: 20px;
+    display: flex;
+  }
+   .konten h2{
+    font-size: 25px;
+    padding: 30px 0px 40px;
+    text-align: center;
+    padding-left: 500px;
+  }
+  .kolom_3{
+    width: 255px;
+    float: left;
+  }
+    #isi img{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+        margin-left: 250px;
+        padding-left: 20px;
+    }
+    .setiap-gambar{
+        position: relative;
+    }
+    .setiap-gambar p{
+        position: absolute;
+        top: 250px;
+        text-align: center;
+        font-size: 24px;
+        margin-left: 250px;
+        width : 250px;
+        display: block;
+        color: black;
+    }
+  .contact-form {
+    padding-top: 100px;
+    background-color: rgb(199, 190, 190);
+  }
+  
+  input, textarea{
+    width: 400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding: 20px;
+    font-size:18px;
+    border: 1px solid #dee7ec;
+    display: block;
+    align-items: center;
+    margin-left:430px ;
+  }
+  .section-title{
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  .clear{
+    clear: both;
+  }
+.footer{
+    background-color:  #585a5b;
+    height: 150px;
+}
+.footer-logo{
+    font-size: 32px;
+    float: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footer-list{
+    float: right;
+}
+.footer-list li{
+    padding-top: 30px;
+    color: white;
+    margin-right: 10px;
+}
+button{
+    font-size: 20px;
+    width: 300px;
+    margin-top:5px;
+    margin-bottom:40px;
+    padding: 20px;
+    margin-left:480px;
+    font-size:18px;
+    border: 1px solid #dee7ec;
+    border-radius: 10px;
+    background-color: yellow;
+}

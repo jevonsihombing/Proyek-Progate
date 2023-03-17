@@ -1,0 +1,183 @@
+@media (max-width : 1000px){
+    .header-logo{
+        display: none;
+        font-size: 20px;
+    }
+    .header-list{
+        display: none;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .menu-icon{
+        color:black
+    }
+    .copy-writer h1{
+        font-size: 50px;
+    }
+    #isi{
+        display: flex;
+    }
+    .konten h2{
+        text-align: center;
+        padding-left: 230px;
+    }
+    #isi img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+        margin-left: 90px;
+        padding-left: 50px;
+    }
+    .setiap_gambar{
+        width:25%;
+    }
+    .setiap-gambar p {
+        position: absolute;
+        top: 250px;
+        text-align: center;
+        font-size: 24px;
+        margin-left: 119px;
+        width: 250px;
+        display: block;
+        color: black;
+    }
+    input, textarea {
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+        display: block;
+        align-items: center;
+        margin-left: 300px;
+    }
+    button {
+        font-size: 20px;
+        width: 300px;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        padding: 20px;
+        margin-left: 335px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+        border-radius: 10px;
+        background-color: yellow;
+    }
+    @media (max-width : 670px){
+        input, textarea {
+          width: 400px;
+          margin-top: 10px;
+          margin-bottom: 30px;
+          padding: 20px;
+          font-size: 18px;
+          border: 1px solid #dee7ec;
+          display: block;
+          align-items: center;
+          margin-left: 150px;
+      }
+      .konten h2 {
+        text-align: center;
+        padding-left: 0px;
+    }
+      button {
+        font-size: 20px;
+        width: 300px;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        padding: 20px;
+        margin-left: 190px;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+        border-radius: 10px;
+        background-color: yellow;
+      }
+    }
+    @media(max-width:470px) {
+        button {
+            font-size: 20px;
+            width: 300px;
+            margin-top: 5px;
+            margin-bottom: 40px;
+            padding: 20px;
+            margin-left: 88px;
+            font-size: 18px;
+            border: 1px solid #dee7ec;
+            border-radius: 10px;
+            background-color: yellow;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 28px;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        input, textarea {
+            width: 400px;
+            margin-top: 10px;
+            margin-bottom: 21px;
+            padding: 20px;
+            font-size: 18px;
+            border: 1px solid #dee7ec;
+            display: block;
+            align-items: center;
+            margin-left: 45px;
+        }
+    }
+    @media (max-width:350px){
+        .menu-icon{
+            color:white;
+        }
+        .konten h2 {
+            text-align: center;
+            padding-left: 15px;
+        }
+        input, textarea {
+            width: 250px;
+            margin-top: 5px;
+            margin-bottom: 12px;
+            padding: 19px;
+            font-size: 18px;
+            border: 1px solid #dee7ec;
+            display: block;
+            align-items: center;
+            margin-left: 60px;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 28px;
+            padding-bottom: 15px;
+            margin-bottom: 5px;
+        }
+        .setiap-gambar p {
+            position: absolute;
+            top: 250px;
+            text-align: center;
+            font-size: 24px;
+            margin-left: 57px;
+            width: 250px;
+            display: block;
+            color: black;
+        }
+        #isi img {
+            width: 250px;
+            height: 250px;
+            margin-bottom: 20px;
+            margin-left: 28px;
+            padding-left: 50px;
+        }
+        button {
+            font-size: 20px;
+            width: 150px;
+            margin-top: 5px;
+            margin-bottom: 40px;
+            padding: 20px;
+            margin-left: 110px;
+            font-size: 18px;
+            border: 1px solid #dee7ec;
+            border-radius: 10px;
+            background-color: yellow;
+        }
+    }
+}
